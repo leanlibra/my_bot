@@ -1,0 +1,59 @@
+[0.020s] Invoking command in '/home/leandro/agv_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leandro/agv_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leandro/agv_ws/install/my_bot
+[0.474s] -- The C compiler identification is GNU 11.4.0
+[1.025s] -- The CXX compiler identification is GNU 11.4.0
+[1.046s] -- Detecting C compiler ABI info
+[1.160s] -- Detecting C compiler ABI info - done
+[1.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.170s] -- Detecting C compile features
+[1.171s] -- Detecting C compile features - done
+[1.175s] -- Detecting CXX compiler ABI info
+[1.285s] -- Detecting CXX compiler ABI info - done
+[1.295s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.295s] -- Detecting CXX compile features
+[1.296s] -- Detecting CXX compile features - done
+[1.306s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.487s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.562s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.596s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.702s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.714s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.717s] -- Added test 'lint_cmake' to check CMake code style
+[1.718s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.724s] -- Added test 'xmllint' to check XML markup files
+[1.726s] -- Configuring done
+[1.729s] -- Generating done
+[1.732s] -- Build files have been written to: /home/leandro/agv_ws/build/my_bot
+[1.739s] Invoked command in '/home/leandro/agv_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/leandro/agv_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/leandro/agv_ws/install/my_bot
+[1.741s] Invoking command in '/home/leandro/agv_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leandro/agv_ws/build/my_bot -- -j4 -l4
+[1.783s] Invoked command in '/home/leandro/agv_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/leandro/agv_ws/build/my_bot -- -j4 -l4
+[1.794s] Invoking command in '/home/leandro/agv_ws/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leandro/agv_ws/build/my_bot
+[1.803s] -- Install configuration: ""
+[1.803s] -- Execute custom install script
+[1.804s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/lib/my_bot/esp32_odom_node.py
+[1.814s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/config/empty.yaml
+[1.824s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[1.835s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+[1.846s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.856s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/description/lidar.xacro
+[1.866s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.875s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.886s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+[1.895s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/launch/bringup_real.launch.py
+[1.905s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.915s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/worlds/empty.world
+[1.925s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.937s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.948s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.958s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.967s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/environment/path.sh
+[1.977s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/environment/path.dsv
+[1.987s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/local_setup.bash
+[1.997s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/local_setup.sh
+[2.007s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/local_setup.zsh
+[2.017s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/local_setup.dsv
+[2.027s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/package.dsv
+[2.039s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[2.049s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[2.059s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[2.068s] -- Symlinking: /home/leandro/agv_ws/install/my_bot/share/my_bot/package.xml
+[2.080s] Invoked command in '/home/leandro/agv_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/leandro/agv_ws/build/my_bot
